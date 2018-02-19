@@ -28,7 +28,7 @@ if(spaces.length > 0){
 
 //playing controls the game, if game is over then playing is false
 var playing = true;
-console.log("Welcome to my hangman game!")
+console.log("Welcome to my Random Words hangman game!")
  var playGame = function(){
 	if (playing){ 
 		console.log("You have " + guesses  + " attempts left");
